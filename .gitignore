@@ -1,4 +1,4 @@
-*.out
-.vscode
+*/*.out
+*/*.vscode
 *.vscode
-*.swp
+*/*.swp
