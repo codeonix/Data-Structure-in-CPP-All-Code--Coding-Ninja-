@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+
 int max(int *addressOfArray,int n){
    int max = INT16_MIN;
    for(int i = 0; i < n ; i++)
@@ -8,7 +9,18 @@ int max(int *addressOfArray,int n){
    max = addressOfArray[i];
 
    return max;
+} 
+
+
+/*
+int max(int arr[],int n){
+    int max = INT16_MIN;
+    for(int i =0;i<n;i++)
+    if(arr[i] > max)
+    max = arr[i];
+    return max;
 }
+*/
 
 int main()
 {
